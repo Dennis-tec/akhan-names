@@ -3,10 +3,12 @@ h1{
   text-align: center;
 }
 .intro{
-  text-align: center;
+  text-align: left;
   padding-left: 30px;
   padding-right: 30px ;
   padding-bottom: 30px;
+  width: 800px;
+  height: 100px;
 }
 .jumbotron{
   background-color: grey;
@@ -20,7 +22,6 @@ h1{
 }
 body{
   background: lightgrey;
-  background-image: url(../images/children.jpg
 );
 
 }
@@ -29,4 +30,5 @@ body{
 }
 .form{
   text-align: center;
+
 }
