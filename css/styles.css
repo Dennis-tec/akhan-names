@@ -1,0 +1,32 @@
+h1{
+  color: green;
+  text-align: center;
+}
+.intro{
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px ;
+  padding-bottom: 30px;
+}
+.jumbotron{
+  background-color: grey;
+}
+.row{
+  columns: 2;
+
+}
+.col{
+  padding-bottom: 3px;
+}
+body{
+  background: lightgrey;
+  background-image: url(../images/children.jpg
+);
+
+}
+.list{
+  text-align: center;
+}
+.form{
+  text-align: center;
+}
