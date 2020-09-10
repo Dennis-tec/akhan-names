@@ -51,22 +51,24 @@
 
   <p>Fill in your details to know your name and the day you were born.</p>
   </div>
-<div class="form">
-  <p>Birthday:<input type="date"></p>
+<form class="form">
+  <label for="birthDay">Birthday:</label>
+  <input type="date" id="date" value=""/> <br>
 
-<p>Gender:
-  <select>
-  <option value="Male"> Male</option>
-  <option value="Female">Female</option>
-  <input type="submit">
-</select></p>
-
-
-</div>
-<div class="contact">
-
+<label for="gender">Gender:</label>
+  <select id="gender">
+  <option value="male"> Male</option>
+  <option value="female">Female</option>
+</select> 
+<input type="button" value="Submit" onclick="akhan()" />
+<div id="output" style="color: red">
 
 </div>
+
+</form>
+<section class="contact">
+
+</section>
   </div>
   <body>
 
