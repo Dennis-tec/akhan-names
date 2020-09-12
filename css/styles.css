@@ -1,4 +1,4 @@
-h1{
+#header{
   color: green;
   text-align: center;
 }
@@ -10,9 +10,10 @@ h1{
   width: 800px;
   height: 100px;
 }
-.jumbotron{
+.Jumbotron{
   background-color: grey;
 }
+
 .row{
   columns: 2;
 
@@ -20,8 +21,9 @@ h1{
 .col{
   padding-bottom: 3px;
 }
-body{
-  background: lightgrey;
+.containesr{
+  background-color: lightgrey;
+}
 );
 
 }
@@ -31,7 +33,4 @@ body{
 .form{
   text-align: center;
 
-}
-span{
-  text-align: center;
 }
