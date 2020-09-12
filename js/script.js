@@ -1,4 +1,4 @@
-<script>
+
 function akhan(){
   var birthDate=document.getElementById('date').value;
   var gender=document.getElementById('gender').value;
@@ -45,4 +45,3 @@ function akhan(){
   }
   document.getElementById('output').innerHTML='Your akhan name is: ' + akanName +'meaning you were born on' +dayName +'.'
 }
-</script>

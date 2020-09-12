@@ -4,10 +4,9 @@
 }
 .intro{
   text-align: left;
-  padding-left: 30px;
-  padding-right: 30px ;
   padding-bottom: 30px;
-  width: 800px;
+  padding-left: 30px;
+  padding-right: 30px;
   height: 100px;
 }
 .Jumbotron{
@@ -18,14 +17,15 @@
   columns: 2;
 
 }
+.men{
+  padding-left: 40px;
+  padding-top: 0px;
+}
 .col{
   padding-bottom: 5px;
 }
-.containesr{
+.web{
   background-color: lightgrey;
-}
-);
-
 }
 .list{
   text-align: center;
