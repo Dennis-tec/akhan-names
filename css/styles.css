@@ -1,4 +1,4 @@
-#header{
+.header{
   color: green;
   text-align: center;
 }
@@ -22,10 +22,17 @@
   text-align: center;
 }
 .form{
-  text-align: center;
-  height: 280px;
-  background-color: skyblue;
+text-align: center;
+  height: 360px;
+  background-image: url(../images/child.jpg
+);
+background-size: contain;
+background-position: center;
   padding: 10px;
-  padding-right: 0px;
-  width: 700px;
+  padding: left;
+  width: 1100px;
+
+}
+img{
+  width: 50px;
 }

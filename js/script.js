@@ -1,11 +1,9 @@
-
-function akhan(){
+function akan(){
   var birthDate=document.getElementById('date').value;
   var gender=document.getElementById('gender').value;
   birthDate.toString();
   if (!birthDate) {
-    alert("You entered an invalid date")
-
+    alert("You entered an invalid date");
   }
   var centuryYear;
   var birthYear;
@@ -14,10 +12,10 @@ function akhan(){
   var year;
   centuryYear=parseInt(birthDate.slice(0, 2));
   birthYear=parseInt(birthDate.slice(2, 4));
-  birthMonth=parseInt(birthDate).slice(5, 7);
-  birthDay=parseInt(birthDate).slice(8, 10);
-  year=parseInt(birthDate.slice(0, 4);
-  if ((birthDay<= 0 || birthDay > 31) || (birthMonth<= 0 || birthMonth> 12)){
+  birthMonth=parseInt(birthDate.slice(5, 7));
+  birthDay=parseInt(birthDate.slice(8, 10));
+  year=parseInt(birthDate.slice(0, 4));
+  if ((birthDay <= 0 || birthDay> 31) || (birthMonth<= 0 || birthMonth> 12)){
     alert("You entered an invalid date");
   }
   var weekDays;
@@ -35,25 +33,25 @@ function akhan(){
     day = Math.trunc(dayOfTheWeek);
   }
   if (year < 1920 || (year > 1920 && year < 1979)){
-day=day -1;
+day = day -1;
   }
   if (year >= 1980 && year < 2000) {
-    day -= 1;
+    day = day -1;
   }
   if (year === 1979) {
     day = day +6;
   }
   if (year === 1990) {
-    day = day+ 7
+    day = day+ 7;
   }
-  var akhanName;
+  var akanName;
   var dayName;
   if (gender === "male") {
     akanName = maleNames[day];
-    dayName = weekDay[day];
+    dayName = weekDays[day];
   }else {
-    akhanName = femaleNames[day];
-    dayName = weekDay[day];
+    akanName = femaleNames[day];
+    dayName = weekDays[day];
   }
-  document.getElementById('output').innerHTML='Your akhan name is: ' + akhanName +'meaning you were born on' +dayName;
+  document.getElementById('output').innerHTML = 'Your akhan name is: ' + akanName +' meaning you were born on ' + dayName;
 }
