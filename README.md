@@ -1,0 +1,25 @@
+# Akan webApp
+### This project is about the ghanian children names, 13/09/2020.
+
+### By **Dennis Kamakei Yiaile.**
+### Live url:
+
+### Description
+This project has been created to help ghanian children who don't know their names and the day of the week they were born identify them. In Ghana, children are named depending on the day of the week they were born. To accomplish this, children need to enter their birthday, month, and year. Submitting the details an alert showing the day and the name of the child will pop up on the screen. Below is a list of ghanian female and male children names arranged according to the day of the week they were born.
+
+### Setup/Installation requirements
+* Fast Internet.
+* gh-pages project access link.
+
+### Technology used
+The languages used to design this project are HTML, CSS, and Javascript. Bootstrap css style method has also been used. Javascript arrays method have been used.
+
+### Known bugs
+The are no known bugs associated with this project.
+
+### Contact
+If you want to inquire anything about my coding carrier or my project, contact me through ykamakei6345@gmail.com.
+
+### License
+*MIT*
+Copyrighrt(c) 2020 **Kamakei**
