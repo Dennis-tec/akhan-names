@@ -44,7 +44,7 @@ color: indigo;
 .web{
   background-color: lightgrey;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 17px;
   overflow-x: hidden;
 }
 .list{
@@ -115,4 +115,7 @@ footer{
 }
 #button{
   font-weight: bold;
+}
+.person-details{
+  margin-top: 100px;
 }
