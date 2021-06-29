@@ -1,6 +1,10 @@
+body{
+  background-color: indigo;
+}
 .header{
-  color: green;
+  color: skyblue;
   text-align: center;
+  font-weight: bold;
 }
 .intro{
   text-align: left;
@@ -9,31 +13,131 @@
   height: 150px;
 }
 .Jumbotron{
-  background-color: grey;
+background-image: url(../images/africa.jpg);
+background-repeat: no-repeat;
+color: white;
+background-position: center;
+text-align: center;
+background-size: cover;
+height: 500px;
 }
-
+.contains{
+display: block;
+border-radius: 2rem;
+box-shadow: 40px;
+box-sizing: border-box;
+}
+.headers1, .headers{
+font-family: monospace;
+font-weight: bold;
+color: indigo;
+}
+.headers{
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+.row, .row1{
+  text-align: center;
+  text-indent: 0px;
+  columns: 1;
+}
 .row{
-  columns: 2;
+  margin-top: -25px;
 }
 .web{
   background-color: lightgrey;
+  font-family: Nunito;
+  font-size: 18px;
+  overflow-x: hidden;
 }
 .list{
   text-align: center;
 }
+.allnames{
+border-width: thick;
+border-color: red;
+}
 .form{
 text-align: center;
-  height: 360px;
+height: 360px;
 background-size: contain;
 background-position: center;
-background-image: url(../images/child.jpg
+background-image: url(../images/myafrica.jpg
 );
+color: white;
   padding: 10px;
   padding left: 20px;
+  margin-left: 200px;
   width: 680px;
 border-left: 10px;
 box-sizing: border-box;
 }
+#male, #female{
+  background-color: black;
+}
 img{
   width: 50px;
 }
+footer{
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+.footer__title{
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+  color: black;
+}
+.footer__social{
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+.footer__icon{
+  font-size: 2rem;
+  color: indigo;
+  margin: 0 var(--mb-1)
+
+}
+.number{
+  color: black;
+}
+.rights{
+  color: black;
+  text-align: center;
+}
+.rights p{
+  color: black;
+}
+#output{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Nunito;
+  color: white;
+  text-overflow: clip;
+  margin-top: 50px;
+}
+#gender, #date{
+  background: transparent;
+}
+#button{
+  font-weight: bold;
+}
+/* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 768px){
+  body{
+    margin: 0;
+  }
+  .section{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .section-title{
+    margin-bottom: var(--mb-6);
+  }
+  .section-title::after{
+    width: 80px;
+    top: 3rem;
+  }

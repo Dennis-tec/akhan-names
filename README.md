@@ -5,7 +5,7 @@
 ### Live url:https://dennis-tec.github.io/akhan-names/
 
 ### Description
-This project has been created to help ghanian children who don't know their names and the day of the week they were born identify them. In Ghana, children are named depending on the day of the week they were born. To accomplish this, children need to enter their birthday, month, and year. When submitting the details, an alert showing the day and the name of the child will pop up on the screen.
+This project has been created to help Ghanian children who don't know their names and the day of the week they were born to identify them. In Ghana, children are named depending on the day of the week they were born. To accomplish this, children need to enter their birthday, month, and year. After submitting the details, an alert showing the day and the name of the child will pop up on the screen.
 
 ### Setup/Installation requirements
 * Fast Internet.

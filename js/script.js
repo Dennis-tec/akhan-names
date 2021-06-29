@@ -49,9 +49,9 @@ day = day -1;
   if (gender === "male") {
     akanName = maleNames[day];
     dayName = weekDays[day];
-  }else {
+  } else {
     akanName = femaleNames[day];
     dayName = weekDays[day];
   }
-  document.getElementById('output').innerHTML = 'Your akhan name is: ' + akanName +' meaning you were born on ' + dayName;
+  document.getElementById('output').innerHTML = 'Your akhan name is ' + akanName +' meaning you were born on ' + dayName;
 }

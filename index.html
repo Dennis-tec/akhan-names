@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Akhan ames web appilcation</title>
+    <title>Akan-names</title>
 
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   </head>
   <body>
 
@@ -22,75 +23,70 @@
 
 <div class="header">
 
-<h1>Akan names web application</h1>
+<h1>Akan Names WebApp</h1>
 </div>
 <div class="intro">
 
-  <p>This webpage has been created to help ghanian children who don't know their names and the day of the week they were born identify them. In Ghana, children are named depending on the day of the week they were born. To accomplish this, children need to enter their birthday, month, and year. Submitting the details an alert showing the day and the name of the child will pop up on the screen. Below is a list of ghanian female and male children names arranged according to the day of the week they were born.</p>
+  <p>This webpage has been created to help Ghanian children who don't know their traditional names and the day of the week they were born to identify them. In Ghana, children are named depending on the day of the week they were born. To know their names, children need to enter their birthday, month, and year. After submitting the details, an alert showing the day and the name of the child will pop up on the screen. Below is a list of Ghanaian female and male children names according to the day of the week they were born.</p>
 </div>
   </div>
-<div class="container">
-
+  <div class="contains">
+    <div class="headers">
+      <h4> Male Names</h4> <br>
+    </div>
 <div class="row">
-
-    <div class="col-xm-6 offset-xm-3">
-
-      <h4> Male Names</h4>
-      <ul>
-
-      <li>Sunday: Kwasi</li>
-      <li>Monday: Kwadwo</li>
-      <li>Tuesday: Kwabena</li>
-      <li>Wednesday: Kwaku</li>
-      <li>Thursday: Yaw</li>
-      <li>Friday: Kofi</li>
-      <li>Saturday: Kwame</li>
-</ul>
+<p>Sunday: Kwasi, Monday: Kwadwo</p>
+<p>Tuesday: Kwabena, Wednesday: Kwaku</p>
+<p>Thursday: Yaw, Friday: Kofi</p>
+<p>Saturday: Kwame</p>
 </div>
-    <div class="<col-xm-6 offset-xm-3">
+
+    <div class="row1">
+      <div class="headers1">
       <h4>Female Names</h4>
-      <ul>
-        <li>Sunday: Akosua</li>
-        <li>Monday: Adwoa</li>
-        <li>Tuesday: Abenaa</li>
-        <li>Wednesday: Akua</li>
-        <li>Thursday: Yaa</li>
-        <li>Friday: Afua</li>
-        <li>Saturday: Ama</li>
-      </ul>
+      </div>
+        <p>Sunday: Akosua, Monday: Adwoa</p>
+        <p>Tuesday: Abenaa, Wednesday: Akua</p>
+        <p>Thursday: Yaa, Friday: Afua</p>
+        <p>Saturday: Ama</p>
+
     </div>
   </div>
-  </div>
+
   <div class="list">
 
   <p>Fill in your details to know your name and the day you were born.</p>
   </div>
 <form class="form">
   <label for="birthDay">Birthday:</label>
-  <input type="date" id="date" value=""/>
+  <input type="date" id="date"  value=""/>
   <br>
  <label for="gender">Gender:</label>
   <select id="gender">
-  <option value="male"> Male</option>
-  <option value="female">Female</option>
+  <option value="male" id="male" > Male</option>
+  <option value="female" id="female">Female</option>
 </select>
-<input type="button" value="Submit" onclick="akan()"/>
+<input type="button" value="Submit" id="button" style="background-color: blue; font-style: bold" onclick="akan()"/>
 <br>
-<div id="output" style="color: blue"></div>
+<div id="output"></div>
 </form>
-<section class="contact">
-<h4>Contact me:</h4>
-<ul>
-  <li>
-<i class="fa fa-twitter"></i>Twitter.
-  </li>
-  <li>
-<i class="fa fa-whatsapp"></i>Whatsapp.
-  </li>
-</ul>
-</section>
-  </div>
-&copy 2020 <strong>denniskamakeig</strong>
+<footer class="footer">
+    <p class="footer__title">Akhan Names</p>
+    <div class="number
+    "<h5>Get in touch</h5> </div>
+<div class="footer__social">
+            <a href="https://www.linkedin.com/in/dennis-yiaile-3ab6851a7" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Dennis-tec" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.facebook.com/denno.kamakx" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/yiaile_kamakei/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://twitter.com/YKamakei?s=08" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            <div class="rights">
+              <p>&#169; 2020 copyright all right reserved</p>
+
+            </div>
+        </div>
+
+</footer>
 </body>
 <script src="js/script.js">
 
