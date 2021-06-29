@@ -55,19 +55,21 @@
 
   <div class="list">
 
-  <p>Fill in your details to know your name and the day you were born.</p>
   </div>
 <form class="form">
-  <label for="birthDay">Birthday:
-  <input type="date" id="date"  value=""/> </label>
+  <p>Fill in your details to know your name and the day you were born.</p>
+  <div class="personal">
+    <label for="birthDay">Birthday:
+    <input type="date" id="date"  value=""/> </label>
+    <br>
+   <label for="gender">Gender:
+    <select id="gender">
+    <option value="male" id="male" > Male</option>
+    <option value="female" id="female">Female</option>
+  </select> </label>
+  <input type="button" value="Submit" id="button" style="background-color: blue; font-style: bold" onclick="akan()"/>
   <br>
- <label for="gender">Gender:
-  <select id="gender">
-  <option value="male" id="male" > Male</option>
-  <option value="female" id="female">Female</option>
-</select> </label>
-<input type="button" value="Submit" id="button" style="background-color: blue; font-style: bold" onclick="akan()"/>
-<br>
+  </div>
 <div id="output"></div>
 </form>
 <footer class="footer">

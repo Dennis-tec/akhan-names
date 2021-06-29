@@ -108,7 +108,7 @@ footer{
   font-family: Nunito;
   color: white;
   text-overflow: clip;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 #gender, #date{
   background: transparent;
@@ -116,6 +116,6 @@ footer{
 #button{
   font-weight: bold;
 }
-.person-details{
-  margin-top: 100px;
+.personal{
+  margin-top: 50px;
 }
