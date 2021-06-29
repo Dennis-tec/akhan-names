@@ -64,6 +64,10 @@ color: white;
 box-sizing: border-box;
 background-repeat: no-repeat;
 }
+.form p{
+  font-weight: bold;
+  font-size: 18px;
+}
 #male, #female{
   background-color: black;
 }
