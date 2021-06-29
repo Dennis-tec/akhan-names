@@ -6,12 +6,7 @@ body{
   text-align: center;
   font-weight: bold;
 }
-.intro{
-  text-align: left;
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 150px;
-}
+
 .Jumbotron{
 background-image: url(../images/africa.jpg);
 background-repeat: no-repeat;
@@ -20,6 +15,7 @@ background-position: center;
 text-align: center;
 background-size: cover;
 height: 500px;
+font-size: 17px;
 }
 .contains{
 display: block;
@@ -63,15 +59,10 @@ text-align: center;
 height: 360px;
 background-size: contain;
 background-position: center;
-background-image: url(../images/myafrica.jpg
-);
+background-image: url(../images/myafrica.jpg);
 color: white;
-  padding: 10px;
-  padding left: 20px;
-  margin-left: 200px;
-  width: 680px;
-border-left: 10px;
 box-sizing: border-box;
+background-repeat: no-repeat;
 }
 #male, #female{
   background-color: black;
