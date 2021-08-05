@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: indigo;
 }
@@ -16,6 +19,7 @@ text-align: center;
 background-size: cover;
 height: 500px;
 font-size: 17px;
+background-attachment: fixed;
 }
 .contains{
 display: block;
